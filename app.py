@@ -10,7 +10,7 @@ css_directory = os.path.join(template_folder, "css")
 images_directory = os.path.join(template_folder, "images")
 
 app = Flask(__name__, template_folder=template_folder)
-
+#
 
 @app.route("/")
 def index():
